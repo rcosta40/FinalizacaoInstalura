@@ -1,0 +1,61 @@
+.logo-face {
+    background-image: url(../imagens/facebook.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 40px;
+    width: 40px;
+    text-indent: -9999999px;
+    margin-left: auto
+}
+
+.logo-twitter {
+    background-image: url(../imagens/twitter.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 40px;
+    width: 40px;
+    text-indent: -9999999px;
+    margin-left: auto;
+}
+
+.logo-google {
+    background-image: url(../imagens/googleplus.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 40px;
+    width: 40px;
+    text-indent: -9999999px;
+    margin-left: auto;
+    margin-right: 1rem;
+}
+
+.nome-rodape {
+    background-color: rgb(58, 58, 58);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.instalura-nome-rodape {
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+    margin-left: 1rem;
+    margin-right:auto;
+}
+
+@media(min-width: 600px) {
+
+    .logo-face {
+        margin:1.5rem;
+    }
+
+    .logo-twitter {
+        margin:1.5rem;
+    }
+
+    .logo-google {
+        margin:1.5rem;
+    }
+    
+}

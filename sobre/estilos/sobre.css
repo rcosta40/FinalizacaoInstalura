@@ -1,0 +1,63 @@
+.sobre-o-instalura {
+    background-image: url(../imagens/banner.jpeg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 70%;
+    padding-bottom: 10%;
+    color: white;
+}
+
+.titulo-sobre {
+    font-size: 2rem;
+    font-weight: bold;
+    padding-top: 3rem;
+    margin-left: .7rem;
+    padding-bottom: 3rem;
+
+}
+
+.texto-sobre {
+    font-size: 1.4rem;
+    line-height: 2rem;
+    margin-left: .7rem;
+    margin-right: .7rem;
+
+
+}
+
+.botao-saiba-mais{
+    font-size: 1.4rem;
+    text-decoration: none;
+    color: white;
+    display: block;
+    text-align: center;
+    border: .1em solid white;
+    border-radius: 5px 5px;
+    padding: 1.2rem;
+    margin-left: .7rem;
+    margin-right: .7rem;
+    margin-top: 2.3rem;
+}
+
+@media(min-width: 600px) {
+    
+    .sobre-o-instalura {
+        height: 70%;
+        padding-bottom: 3%;
+    }
+
+    .titulo-sobre {
+        margin-left: 20%; 
+    }
+
+    .texto-sobre {
+        margin-left: 20%; 
+        margin-right: 52%;
+    }
+
+    .botao-saiba-mais {
+        margin-left: 20%; 
+        margin-right: 52%;
+    }
+}

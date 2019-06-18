@@ -1,0 +1,74 @@
+.primeiro-instalura-festival {
+    border: .1em solid rgb(94, 94, 255);
+    margin-top: 2.5rem;
+    width: 90%;
+    margin-left: 5%; 
+    margin-right: 5%;
+}
+
+.foto-festival {
+    width: 88%;
+    margin-left: 6%;
+    margin-right: 6%;
+    margin-top: 3rem;
+}
+
+.titulo-festival {
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.paragrafo-festival {
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    color: rgb(94, 94, 255);
+    margin-left: 2.2rem;
+    margin-bottom: 2rem;
+    margin-right: 1rem;
+}
+
+.outros-instalura-festival {
+    border: .1em solid rgb(94, 94, 255);
+    margin-top: 1.5rem;
+    width: 90%;
+    margin-left: 5%; 
+    margin-right: 5%;
+}
+
+.festival {
+    padding-bottom: 1.5rem;
+}
+
+@media(min-width: 600px) {
+
+    .festival {
+        display: flex;
+        align-content: center;
+        justify-content: space-around;
+        margin-top: 1rem;
+    }
+
+    .primeiro-instalura-festival{
+        margin: 1rem;
+    }
+
+    .primeiro-instalura-festival:hover,
+    .primeiro-instalura-festival:focus {
+        transition: .4s;
+        border: .1em solid white;    
+    }
+
+    .outros-instalura-festival {
+        margin: 1rem;
+    }
+
+    .outros-instalura-festival:hover,
+    .outros-instalura-festival:focus {
+        transition: .4s;
+        border: .1em solid white;    
+    }
+}

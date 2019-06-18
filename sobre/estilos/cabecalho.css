@@ -1,0 +1,73 @@
+/*cabeçalho*/
+html {
+    font-family: "Open Sans";
+}
+
+.cabecalho {
+    background-color: rgb(58, 58, 58);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    height: 70px;
+    margin-top: .5rem;
+    margin-left: 1rem;
+    margin-bottom: .5rem;
+}
+
+.instalura-nome {
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+    margin: 1rem;
+}
+
+.mensagem {
+    margin-right: 1rem;
+    height: 2.1rem;
+    width: 20rem;
+    border: .2em solid lightgray;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*Essa será a versão desktop*/
+
+@media(min-width: 600px){
+
+    /*cabeçalho*/
+    .cabecalho {
+        background-color: rgb(58, 58, 58);
+    }
+
+    .logo {
+        margin-left: 10%;
+    }
+
+    .instalura-nome {
+        margin-right: auto;
+    }
+
+    .mensagem {
+        margin-right: 10%;
+    }
+
+    
+
+    
+
+    
+
+
+}

@@ -1,0 +1,123 @@
+.equipe-festival-mag {
+    background-color: rgb(0, 0, 56); 
+}
+
+.titulo-equipe {
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    padding-top: 3rem;
+    padding-bottom: 1.8rem;
+}
+
+.foto-equipe {
+    object-fit: none;
+    width: 90%;
+    height: 4rem;
+    padding-bottom: 1.8rem;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.primeiro-paragrafo-equipe {
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    color: rgb(94, 94, 255);
+    margin-left: 2rem;
+    margin-right: 4rem;
+}
+
+.segundo-paragrafo-equipe {
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    color: rgb(94, 94, 255);
+    margin-top: 1.4rem;
+    margin-left: 2rem;
+    margin-right: 1rem;
+}
+
+.fa-users {
+    color: rgb(94, 94, 255);
+    margin-left: 2rem;
+    margin-top: 1.4rem;
+
+}
+
+.botao-trabalhe {
+    display: block;
+    text-decoration: none;
+}
+
+.fa-code-branch {
+    color: rgb(94, 94, 255);
+    margin-left: 2rem;
+    margin-top: 1.4rem;
+}
+
+span {
+    color: white;
+    margin-left: .5rem;
+    font-size: 1.7rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+@media(min-width: 600px) {
+
+    .nossa-equipe {
+        position: relative;
+    }
+
+    .titulo-equipe {
+        margin-left: 62%;
+        padding-top: 0%;
+        margin-top: 3.2%;
+        padding-bottom: 0%;
+        position: absolute;
+    }
+
+    .elementos-nossa-equipe {
+        display: flex;
+    }
+
+    .conteudo-escrito-equipe {
+        margin-left: 0%;
+        margin-top: 8%;
+    }
+
+    .foto-equipe {
+        object-fit: initial;
+        height: 18rem;
+        width: 35%;
+        margin-top: 5%;
+        margin-left: 4%;
+        margin-right: 0rem;
+
+    }
+
+    .segundo-paragrafo-equipe {
+        margin-top: 2.1rem;
+        margin-bottom: 1.2rem;
+    }
+
+    span:hover,
+    span:focus {
+        transition: 1s;
+        font-size: 1.9rem;    
+    }
+
+    .botao-conheca:hover,
+    .botao-conheca:focus {
+        transition: 1s;
+        font-size: 1.1rem;    
+    }
+
+    .botao-trabalhe:hover,
+    .botao-trabalhe:focus {
+        transition: 1s;
+        font-size: 1.1rem;    
+    }
+}
